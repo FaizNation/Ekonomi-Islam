@@ -10678,6 +10678,16 @@ footer {
   margin-top: 50px;
 }
 
+.akad {
+  padding: 0.5rem 1rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 0.5rem;
+  margin-top: 15px;
+}
+
 .dropdown-toggle {
   padding: 0.5rem 1rem;       /* lebih ramping */
   font-size: 0.75rem;         /* teks lebih kecil */
