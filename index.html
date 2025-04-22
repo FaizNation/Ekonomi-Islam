@@ -1,178 +1,554 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>ShariaEconomy.ID</title>
-        <link rel="icon" type="image/x-icon" href="asset/favicon.ico" />
-        <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
-        <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-    </head>
-    <body>
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
-            <div class="container px-4 px-lg-5">
-                <a class="navbar-brand" href="index.html">ShariaEconomy.ID</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    Menu
-                    <i class="fas fa-bars"></i>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ms-auto py-4 py-lg-0">
-                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="index.html">Home</a></li>
-                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="about.html">About</a></li>
-                        <div class="dropdown">
-                            <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                              Post
-                            </button>
-                            <ul class="dropdown-menu">
-                              <li><a class="dropdown-item" href="/post/pengertian.html">Pengertian</a></li>
-                              <li><a class="dropdown-item" href="/post/akad.html">Akad transaksi</a></li>
-                              <li><a class="dropdown-item" href="/post/lks.html">Lembaga keuangan syariah</a></li>
-                              <li><a class="dropdown-item" href="/post/judol.html">Larangan judi dan game online</a></li>
-                            </ul>
-                          </div>
-                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="contact.html">Contact</a></li>
-                    </ul>
-                </div>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>ShariaEconomy.ID</title>
+    <link rel="icon" type="image/x-icon" href="asset/favicon.ico" />
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+    <link rel='stylesheet' href='https://unpkg.com/bootstrap@4.1.3/dist/css/bootstrap.min.css'>
+    <link rel='stylesheet' href='https://cdn.3up.dk/mdi@2.2.43/css/materialdesignicons.min.css'>
+    <link rel="stylesheet" href="/css/style.css">
+
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet"
+        type="text/css" />
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800"
+        rel="stylesheet" type="text/css" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+</head>
+
+<body>
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
+        <div class="container px-4 px-lg-5">
+            <a class="navbar-brand" href="index.html">ShariaEconomy.ID</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                Menu
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto py-4 py-lg-0">
+                    <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="about.html">About</a></li>
+                    <div class="dropdown">
+                        <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Post
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="/post/pengertian.html">Pengertian</a></li>
+                            <li><a class="dropdown-item" href="/post/akad.html">Akad transaksi</a></li>
+                            <li><a class="dropdown-item" href="/post/lks.html">Lembaga keuangan syariah</a></li>
+                            <li><a class="dropdown-item" href="/post/judol.html">Larangan judi dan game online</a></li>
+                        </ul>
+                    </div>
+                    <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="contact.html">Contact</a></li>
+                </ul>
             </div>
-        </nav>
-        <!-- Page Header-->
-        <header class="masthead" style="background-image: url('asset/img/home.png');  height: 100vh;
+        </div>
+    </nav>
+    <!-- Page Header-->
+    <header class="masthead" style="background-image: url('asset/img/home.png');  height: 100vh;
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
         display: flex;
         align-items: center;
         justify-content: center;">
-            <div class="container position-relative px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-md-10 col-lg-8 col-xl-7">
-                        <div class="site-heading">
-                            <h1>EKONOMI ISLAM</h1>
-                            <span class="subheading">"Menuju Sistem Ekonomi yang Adil dan Berkah"</span>
-                            <a class="btn btn-primary btn-xl" href="#pendahuluan">Apa yang akan kita bahas?</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </header>
-        <header class="masthead" style="background-image: url('asset/blur/pendahuluan-blur.png') " id="pendahuluan">
-            <div class="container position-relative px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-md-10 col-lg-8 col-xl-7">
-                        <div class="page-heading">
-                            <h1>Pendahuluan</h1>
-                            <span class="subheading">Islam sebagai Agama Universal</span>
-                            <p>Islam mengatur seluruh aspek kehidupan manusia, baik hubungan dengan Allah (habl min Allah) maupun dengan sesama manusia (habl min al-nas). Al-Qur'an sebagai sumber utama Islam mencakup aqidah, syari'ah, sejarah, dan etika yang mengatur kehidupan individu maupun sosial.
-                            Dalam aspek muamalah, Islam bersifat fleksibel dan menyesuaikan situasi, berbeda dengan ibadah yang bersifat tetap dan tidak berubah. Meskipun fleksibel, aktivitas muamalah tetap diatur agar tidak merugikan orang lain dan tetap menjaga keadilan. Aturan ini bertujuan untuk menciptakan kebahagiaan di dunia dan akhirat.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </header>
-
-        
-        <!-- Main Content-->
-        <div class="container px-4 px-lg-5" id="main-content">
+        <div class="container position-relative px-4 px-lg-5">
             <div class="row gx-4 gx-lg-5 justify-content-center">
                 <div class="col-md-10 col-lg-8 col-xl-7">
-
-                    <div class="row">
-                        <div class="col-sm-6 mb-3 mb-sm-0">
-                          <div class="card">
-                            <img src="asset/img/pengertian.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                              <h5 class="card-title">Pengertian dan karakteristik ekonomi islam</h5>
-                              <p class="card-text">Ekonomi dalam Islam merupakan bagian dari mu'amalah yang secara bahasa berasal dari kata...</p>
-                              <a href="post/pengertian.html" class="btn btn-primary">Baca Artikel →</a>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="col-sm-6">
-                          <div class="card">
-                            <img src="asset/img/akad-transaksi.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                              <h5 class="card-title">Akad transaksi dalam ekonomi islam</h5>
-                              <p class="card-text">Akad dalam terminologi fiqih dapat didefinisikan sesuai hubungan antara pernyataan ijab dan qabul dan...</p>
-                              <a href="/post/akad.html" class="btn btn-primary">Baca Artikel →</a>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="row my-4">
-                        <div class="col-sm-6 mb-3 mb-sm-0">
-                          <div class="card">
-                            <img src="asset//img/LKS.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                              <h5 class="card-title">Lembaga Keuangan Syariah</h5>
-                              <p class="card-text">Lembaga keuangan syariah (LKS) adalah sebuah badan usaha yang kegiatannya di bidang keuangan syariah.</p>
-                              <a href="/post/lks.html" class="btn btn-primary">Baca Artikel →</a>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="col-sm-6">
-                          <div class="card">
-                            <img src="asset/img/Judi.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                              <h5 class="card-title">Larangan judi online dan game online</h5>
-                              <p class="card-text">Perjudian telah lama menjadi isu kontrovesial dalam banyak masyarakat dunia.</p>
-                              <a href="/post/judol.html" class="btn btn-primary">Baca Artikel →</a>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-
-                    
+                    <div class="site-heading">
+                        <h1>EKONOMI ISLAM</h1>
+                        <span class="subheading">"Menuju Sistem Ekonomi yang Adil dan Berkah"</span>
+                        <a class="btn btn-primary btn-xl" href="#pendahuluan">Apa yang akan kita bahas?</a>
+                    </div>
                 </div>
             </div>
         </div>
-        <!-- Footer-->
-        <footer class="border-top">
-            <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-md-10 col-lg-8 col-xl-7">
-                        <ul class="list-inline text-center">
-                            <li class="list-inline-item">
-                                <a href="#!">
-                                    <span class="fa-stack fa-lg">
-                                        <i class="fas fa-circle fa-stack-2x"></i>
-                                        <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
-                                    </span>
-                                </a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a href="#!">
-                                    <span class="fa-stack fa-lg">
-                                        <i class="fas fa-circle fa-stack-2x"></i>
-                                        <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
-                                    </span>
-                                </a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a href="#!">
-                                    <span class="fa-stack fa-lg">
-                                        <i class="fas fa-circle fa-stack-2x"></i>
-                                        <i class="fab fa-github fa-stack-1x fa-inverse"></i>
-                                    </span>
-                                </a>
-                            </li>
-                        </ul>
-                        <div class="small text-center text-muted fst-italic">Copyright &copy; ShariaEconomy.ID 2025</div>
+    </header>
+    <header class="masthead" style="background-image: url('asset/blur/pendahuluan-blur.png') " id="pendahuluan">
+        <div class="container position-relative px-4 px-lg-5">
+            <div class="row gx-4 gx-lg-5 justify-content-center">
+                <div class="col-md-10 col-lg-8 col-xl-7">
+                    <div class="page-heading">
+                        <h1>Pendahuluan</h1>
+                        <span class="subheading">Islam sebagai Agama Universal</span>
+                        <p>Islam mengatur seluruh aspek kehidupan manusia, baik hubungan dengan Allah (habl min Allah)
+                            maupun dengan sesama manusia (habl min al-nas). Al-Qur'an sebagai sumber utama Islam
+                            mencakup aqidah, syari'ah, sejarah, dan etika yang mengatur kehidupan individu maupun
+                            sosial.
+                            Dalam aspek muamalah, Islam bersifat fleksibel dan menyesuaikan situasi, berbeda dengan
+                            ibadah yang bersifat tetap dan tidak berubah. Meskipun fleksibel, aktivitas muamalah tetap
+                            diatur agar tidak merugikan orang lain dan tetap menjaga keadilan. Aturan ini bertujuan
+                            untuk menciptakan kebahagiaan di dunia dan akhirat.</p>
                     </div>
                 </div>
             </div>
-        </footer>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-    </body>
+        </div>
+    </header>
+
+
+    <!-- Main Content-->
+    <div class="container px-4 px-lg-5" id="main-content">
+        <div class="row gx-4 gx-lg-5 justify-content-center">
+            <div class="col-md-10 col-lg-8 col-xl-7">
+
+                <div class="row">
+                    <div class="col-sm-6 mb-3 mb-sm-0">
+                        <div class="card">
+                            <img src="asset/img/pengertian.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Pengertian dan karakteristik ekonomi islam</h5>
+                                <p class="card-text">Ekonomi dalam Islam merupakan bagian dari mu'amalah yang secara
+                                    bahasa berasal dari kata...</p>
+                                <a href="post/pengertian.html" class="btn btn-primary">Baca Artikel →</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <img src="asset/img/akad-transaksi.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Akad transaksi dalam ekonomi islam</h5>
+                                <p class="card-text">Akad dalam terminologi fiqih dapat didefinisikan sesuai hubungan
+                                    antara pernyataan ijab dan qabul dan...</p>
+                                <a href="/post/akad.html" class="btn btn-primary">Baca Artikel →</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row my-4">
+                    <div class="col-sm-6 mb-3 mb-sm-0">
+                        <div class="card">
+                            <img src="asset//img/LKS.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Lembaga Keuangan Syariah</h5>
+                                <p class="card-text">Lembaga keuangan syariah (LKS) adalah sebuah badan usaha yang
+                                    kegiatannya di bidang keuangan syariah.</p>
+                                <a href="/post/lks.html" class="btn btn-primary">Baca Artikel →</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <img src="asset/img/Judi.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Larangan judi online dan game online</h5>
+                                <p class="card-text">Perjudian telah lama menjadi isu kontrovesial dalam banyak
+                                    masyarakat dunia.</p>
+                                <a href="/post/judol.html" class="btn btn-primary">Baca Artikel →</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pertanyaan -->
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="nav nav-pills faq-nav" id="faq-tabs" role="tablist" aria-orientation="vertical">
+                                <a href="#tab1" class="nav-link active" data-toggle="pill" role="tab"
+                                    aria-controls="tab1" aria-selected="true">
+                                    <i class="mdi mdi-help-circle"></i> All Questions!
+                                </a>
+                                <a href="#tab2" class="nav-link" data-toggle="pill" role="tab" aria-controls="tab2"
+                                    aria-selected="false">
+                                    <i class="mdi mdi-account"></i> Pengertian
+                                </a>
+                                <a href="#tab3" class="nav-link" data-toggle="pill" role="tab" aria-controls="tab3"
+                                    aria-selected="false">
+                                    <i class="mdi mdi-account-settings"></i> Akad transaksi
+                                </a>
+                                <a href="#tab4" class="nav-link" data-toggle="pill" role="tab" aria-controls="tab4"
+                                    aria-selected="false">
+                                    <i class="mdi mdi-heart"></i> LKS
+                                </a>
+                                <a href="#tab5" class="nav-link" data-toggle="pill" role="tab" aria-controls="tab5"
+                                    aria-selected="false">
+                                    <i class="mdi mdi-coin"></i> Larangan judi
+                                </a>
+                                <a href="#tab6" class="nav-link" data-toggle="pill" role="tab" aria-controls="tab6"
+                                    aria-selected="false">
+                                    <i class="mdi mdi-help"></i> General help
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-8">
+                            <div class="tab-content" id="faq-tab-content">
+                                <div class="tab-pane show active" id="tab1" role="tabpanel" aria-labelledby="tab1">
+                                    <div class="accordion" id="accordion-tab-1">
+                                        <div class="card">
+                                            <div class="card-header" id="accordion-tab-1-heading-1">
+                                                <h5>
+                                                    <button class="btn btn-link" type="button" data-toggle="collapse"
+                                                        data-target="#accordion-tab-1-content-1" aria-expanded="false"
+                                                        aria-controls="accordion-tab-1-content-1">Mengapa penting bagi
+                                                        aktivitas pasar modal syariah untuk mengikuti prinsip-prinsip
+                                                        Islam, dan apa dampaknya jika tidak dilakukan?
+                                                        <em> - faruk</em>
+                                                    </button>
+                                                </h5>
+                                            </div>
+                                            <div class="collapse show" id="accordion-tab-1-content-1"
+                                                aria-labelledby="accordion-tab-1-heading-1"
+                                                data-parent="#accordion-tab-1">
+                                                <div class="card-body">
+                                                    <p>Aktivitas pasar modal syariah penting untuk mengikuti
+                                                        prinsip-prinsip Islam karena bertujuan menciptakan sistem
+                                                        keuangan yang adil, bersih, dan sesuai dengan nilai-nilai etika
+                                                        Islam. Dalam Islam, praktik seperti riba, gharar, dan investasi
+                                                        dalam bisnis haram seperti
+                                                        alkohol, judi, atau rokok sangat dilarang. Oleh karena itu,
+                                                        pasar modal syariah harus memastikan bahwa semua transaksi bebas
+                                                        dari unsur-unsur tersebut. Misalnya, saham bank konvensional
+                                                        tidak diperbolehkan karena mengandung bunga, dan saham
+                                                        perusahaan rokok juga dilarang karena termasuk dalam kategori
+                                                        bisnis haram. Jika prinsip-prinsip ini tidak diikuti, maka
+                                                        dampaknya bisa serius, baik secara agama, sosial, maupun
+                                                        ekonomi. Secara agama, hasil investasi bisa dianggap tidak halal
+                                                        dan tidak berkah. Secara sosial, kepercayaan investor muslim
+                                                        bisa menurun, dan secara ekonomi, praktik yang tidak etis dapat
+                                                        menciptakan pasar yang tidak stabil. Oleh karena itu, mengikuti
+                                                        prinsip Islam dalam pasar modal bukan hanya kewajiban agama,
+                                                        tetapi juga cara menjaga integritas dan keadilan dalam sistem
+                                                        keuangan.</p>
+
+                                                    <p><strong>Di jawab oleh: </strong>Fadly Fais Fajaruddin</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card">
+                                            <div class="card-header" id="accordion-tab-1-heading-2">
+                                                <h5>
+                                                    <button class="btn btn-link" type="button" data-toggle="collapse"
+                                                        data-target="#accordion-tab-1-content-2" aria-expanded="false"
+                                                        aria-controls="accordion-tab-1-content-2">Apakah gacha di game
+                                                        online seperti Free Fire, Mobile Legends itu termasuk
+                                                        perjudian?</button>
+                                                </h5>
+                                            </div>
+                                            <div class="collapse" id="accordion-tab-1-content-2"
+                                                aria-labelledby="accordion-tab-1-heading-2"
+                                                data-parent="#accordion-tab-1">
+                                                <div class="card-body">
+                                                    <p>That's so cute. Can we have Bender Burgers again? Is the Space
+                                                        Pope reptilian!? I wish! It's a nickel. Bender! Ship! Stop
+                                                        bickering or I'm going to come back there and change your
+                                                        opinions manually!</p>
+                                                    <p><strong>Example: </strong>Okay, I like a challenge. Is that a
+                                                        cooking show? No argument here.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card">
+                                            <div class="card-header" id="accordion-tab-1-heading-3">
+                                                <h5>
+                                                    <button class="btn btn-link" type="button" data-toggle="collapse"
+                                                        data-target="#accordion-tab-1-content-3" aria-expanded="false"
+                                                        aria-controls="accordion-tab-1-content-3">Sejauh mana lembaga
+                                                        syariah saat ini bener benar mencerminkan prinsip ekonomi atau
+                                                        hanya sebatas simbol?</button>
+                                                </h5>
+                                            </div>
+                                            <div class="collapse" id="accordion-tab-1-content-3"
+                                                aria-labelledby="accordion-tab-1-heading-3"
+                                                data-parent="#accordion-tab-1">
+                                                <div class="card-body">
+                                                    <p>As I have explained in my book 'Earth in the Balance', and the
+                                                        much more popular 'Harry Potter and the Balance of Earth', we
+                                                        need to defend our planet against pollution. Also dark wizards.
+                                                        Fry, you can't just sit here in the dark listening to classical
+                                                        music.</p>
+                                                    <p><strong>Example: </strong>Actually, that's still true. Well,
+                                                        let's just dump it in the sewer and say we delivered it.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane" id="tab2" role="tabpanel" aria-labelledby="tab2">
+                                    <div class="accordion" id="accordion-tab-2">
+                                        <div class="card">
+                                            <div class="card-header" id="accordion-tab-2-heading-1">
+                                                <h5>
+                                                    <a href="/contact.html"><button class="btn btn-link" type="button"
+                                                            data-toggle="collapse"
+                                                            data-target="#accordion-tab-2-content-1"
+                                                            aria-expanded="false"
+                                                            aria-controls="accordion-tab-2-content-1">Hmm... sepertinya
+                                                            belum ada yang bertanya. Punya pertanyaan? Tulis
+                                                            aja!</button></a>
+                                                </h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane" id="tab3" role="tabpanel" aria-labelledby="tab3">
+                                    <div class="accordion" id="accordion-tab-3">
+                                        <div class="card">
+                                            <div class="card-header" id="accordion-tab-3-heading-1">
+                                                <h5>
+                                                    <a href="/contact.html"><button class="btn btn-link" type="button"
+                                                        data-toggle="collapse"
+                                                        data-target="#accordion-tab-2-content-1"
+                                                        aria-expanded="false"
+                                                        aria-controls="accordion-tab-2-content-1">Hmm... sepertinya
+                                                        belum ada yang bertanya. Punya pertanyaan? Tulis
+                                                        aja!</button></a>
+                                                </h5>
+                                            </div>         
+                                        </div>  
+                                    </div>
+                                </div>
+                                <div class="tab-pane" id="tab4" role="tabpanel" aria-labelledby="tab4">
+                                    <div class="accordion" id="accordion-tab-4">
+                                        <div class="card">
+                                            <div class="card-header" id="accordion-tab-4-heading-1">
+                                                <h5>
+                                                    <button class="btn btn-link" type="button" data-toggle="collapse"
+                                                        data-target="#accordion-tab-4-content-1" aria-expanded="false"
+                                                        aria-controls="accordion-tab-4-content-1">Mengapa penting bagi
+                                                        aktivitas pasar modal syariah untuk mengikuti prinsip-prinsip
+                                                        Islam, dan apa dampaknya jika tidak dilakukan?
+                                                        <em> - faruk</em></button>
+                                                </h5>
+                                            </div>
+                                            <div class="collapse show" id="accordion-tab-4-content-1"
+                                                aria-labelledby="accordion-tab-4-heading-1"
+                                                data-parent="#accordion-tab-4">
+                                                <div class="card-body">
+                                                    <p>Aktivitas pasar modal syariah penting untuk mengikuti
+                                                        prinsip-prinsip Islam karena bertujuan menciptakan sistem
+                                                        keuangan yang adil, bersih, dan sesuai dengan nilai-nilai etika
+                                                        Islam. Dalam Islam, praktik seperti riba, gharar, dan investasi
+                                                        dalam bisnis haram seperti
+                                                        alkohol, judi, atau rokok sangat dilarang. Oleh karena itu,
+                                                        pasar modal syariah harus memastikan bahwa semua transaksi bebas
+                                                        dari unsur-unsur tersebut. Misalnya, saham bank konvensional
+                                                        tidak diperbolehkan karena mengandung bunga, dan saham
+                                                        perusahaan rokok juga dilarang karena termasuk dalam kategori
+                                                        bisnis haram. Jika prinsip-prinsip ini tidak diikuti, maka
+                                                        dampaknya bisa serius, baik secara agama, sosial, maupun
+                                                        ekonomi. Secara agama, hasil investasi bisa dianggap tidak halal
+                                                        dan tidak berkah. Secara sosial, kepercayaan investor muslim
+                                                        bisa menurun, dan secara ekonomi, praktik yang tidak etis dapat
+                                                        menciptakan pasar yang tidak stabil. Oleh karena itu, mengikuti
+                                                        prinsip Islam dalam pasar modal bukan hanya kewajiban agama,
+                                                        tetapi juga cara menjaga integritas dan keadilan dalam sistem
+                                                        keuangan.</p>
+
+                                                    <p><strong>Di jawab oleh: </strong>Fadly Fais Fajaruddin</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card">
+                                            <div class="card-header" id="accordion-tab-4-heading-2">
+                                                <h5>
+                                                    <button class="btn btn-link" type="button" data-toggle="collapse"
+                                                        data-target="#accordion-tab-4-content-2" aria-expanded="false"
+                                                        aria-controls="accordion-tab-4-content-2">Sejauh mana lembaga
+                                                        syariah saat ini bener benar mencerminkan prinsip ekonomi atau
+                                                        hanya sebatas simbol?</button>
+                                                </h5>
+                                            </div>
+                                            <div class="collapse" id="accordion-tab-4-content-2"
+                                                aria-labelledby="accordion-tab-4-heading-2"
+                                                data-parent="#accordion-tab-4">
+                                                <div class="card-body">
+                                                    <p>I meant 'physically'. Look, perhaps you could let me work for a
+                                                        little food? I could clean the floors or paint a fence, or
+                                                        service you sexually? When the lights go out, it's nobody's
+                                                        business what goes on between two consenting adults.</p>
+                                                    <p><strong>Example: </strong>Nay, I respect and admire Harold Zoid
+                                                        too much to beat him to death with his own Oscar.</p>
+                                                </div>
+                                            </div>
+                                        </div>       
+                                    </div>
+                                </div>
+                                <div class="tab-pane" id="tab5" role="tabpanel" aria-labelledby="tab5">
+                                    <div class="accordion" id="accordion-tab-5">
+                                        <div class="card">
+                                            <div class="card-header" id="accordion-tab-5-heading-1">
+                                                <h5>
+                                                    <button class="btn btn-link" type="button" data-toggle="collapse"
+                                                        data-target="#accordion-tab-5-content-1" aria-expanded="false"
+                                                        aria-controls="accordion-tab-5-content-1">Apakah gacha di game
+                                                        online seperti Free Fire, Mobile Legends itu termasuk
+                                                        perjudian?</button>
+                                                </h5>
+                                            </div>
+                                            <div class="collapse show" id="accordion-tab-5-content-1"
+                                                aria-labelledby="accordion-tab-5-heading-1"
+                                                data-parent="#accordion-tab-5">
+                                                <div class="card-body">
+                                                    <p>That could be 'my' beautiful soul sitting naked on a couch. If I
+                                                        could just learn to play this stupid thing. Oh, I don't have
+                                                        time for this. I have to go and buy a single piece of fruit with
+                                                        a coupon and then return it, making people wait behind me while
+                                                        I complain. I'm just glad my fat, ugly mama isn't alive to see
+                                                        this day. For one beautiful night I knew what it was like to be
+                                                        a grandmother. Subjugated, yet honored. But existing is
+                                                        basically all I do! I never loved you.</p>
+                                                    <p><strong>Example: </strong>A sexy mistake. And I'd do it again!
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane" id="tab6" role="tabpanel" aria-labelledby="tab6">
+                                    <div class="accordion" id="accordion-tab-6">
+                                        <div class="card">
+                                            <div class="card-header" id="accordion-tab-6-heading-1">
+                                                <h5>
+                                                    <button class="btn btn-link" type="button" data-toggle="collapse"
+                                                        data-target="#accordion-tab-6-content-1" aria-expanded="false"
+                                                        aria-controls="accordion-tab-6-content-1">Doomsday
+                                                        device?</button>
+                                                </h5>
+                                            </div>
+                                            <div class="collapse show" id="accordion-tab-6-content-1"
+                                                aria-labelledby="accordion-tab-6-heading-1"
+                                                data-parent="#accordion-tab-6">
+                                                <div class="card-body">
+                                                    <p>Ah, now the ball's in Farnsworth's court! We'll need to have a
+                                                        look inside you with this camera. Stop it, stop it. It's fine. I
+                                                        will 'destroy' you! Bender! Ship! Stop bickering or I'm going to
+                                                        come back there and change your opinions manually!</p>
+                                                    <p><strong>Example: </strong>So I really am important? How I feel
+                                                        when I'm drunk is correct?</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card">
+                                            <div class="card-header" id="accordion-tab-6-heading-2">
+                                                <h5>
+                                                    <button class="btn btn-link" type="button" data-toggle="collapse"
+                                                        data-target="#accordion-tab-6-content-2" aria-expanded="false"
+                                                        aria-controls="accordion-tab-6-content-2">And so we say goodbye
+                                                        to our beloved pet, Nibbler?</button>
+                                                </h5>
+                                            </div>
+                                            <div class="collapse" id="accordion-tab-6-content-2"
+                                                aria-labelledby="accordion-tab-6-heading-2"
+                                                data-parent="#accordion-tab-6">
+                                                <div class="card-body">
+                                                    <p>Nibbler, who's gone to a place where I, too, hope one day to go.
+                                                        The toilet. But existing is basically all I do! I suppose I
+                                                        could part with 'one' and still be feared. I just told you!
+                                                        You've killed me!</p>
+                                                    <p><strong>Example: </strong>What's with you kids? Every other day
+                                                        it's food, food, food.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card">
+                                            <div class="card-header" id="accordion-tab-6-heading-3">
+                                                <h5>
+                                                    <button class="btn btn-link" type="button" data-toggle="collapse"
+                                                        data-target="#accordion-tab-6-content-3" aria-expanded="false"
+                                                        aria-controls="accordion-tab-6-content-3">Tell her you just want
+                                                        to talk?</button>
+                                                </h5>
+                                            </div>
+                                            <div class="collapse" id="accordion-tab-6-content-3"
+                                                aria-labelledby="accordion-tab-6-heading-3"
+                                                data-parent="#accordion-tab-6">
+                                                <div class="card-body">
+                                                    <p>It has nothing to do with mating. Soon enough. There, now he's
+                                                        trapped in a book I wrote: a crummy world of plot holes and
+                                                        spelling errors! Daylight and everything. Hey! I'm a
+                                                        porno-dealing monster, what do I care what you think?</p>
+                                                    <p><strong>Example: </strong>Is that a cooking show? It doesn't look
+                                                        so shiny to me. And why did 'I' have to take a cab?</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card">
+                                            <div class="card-header" id="accordion-tab-6-heading-4">
+                                                <h5>
+                                                    <button class="btn btn-link" type="button" data-toggle="collapse"
+                                                        data-target="#accordion-tab-6-content-4" aria-expanded="false"
+                                                        aria-controls="accordion-tab-6-content-4">Good man. Nixon's
+                                                        pro-war and pro-family?</button>
+                                                </h5>
+                                            </div>
+                                            <div class="collapse" id="accordion-tab-6-content-4"
+                                                aria-labelledby="accordion-tab-6-heading-4"
+                                                data-parent="#accordion-tab-6">
+                                                <div class="card-body">
+                                                    <p>I don't 'need' to drink. I can quit anytime I want! THE BIG BRAIN
+                                                        AM WINNING AGAIN! I AM THE GREETEST! NOW I AM LEAVING EARTH, FOR
+                                                        NO RAISEN! There's one way and only one way to determine if an
+                                                        animal is intelligent. Dissect its brain!</p>
+                                                    <p><strong>Example: </strong>Guess again. Yeah, I do that with my
+                                                        stupidness. And when we woke up, we had these bodies.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    <!-- Footer-->
+    <footer class="border-top my-4">
+        <div class="container px-4 px-lg-5">
+            <div class="row gx-4 gx-lg-5 justify-content-center">
+                <div class="col-md-10 col-lg-8 col-xl-7">
+                    <ul class="list-inline text-center">
+                        <li class="list-inline-item">
+                            <a href="#!">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fas fa-circle fa-stack-2x"></i>
+                                    <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#!">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fas fa-circle fa-stack-2x"></i>
+                                    <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#!">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fas fa-circle fa-stack-2x"></i>
+                                    <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="small text-center text-muted fst-italic">Copyright &copy; ShariaEconomy.ID 2025</div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src='https://unpkg.com/jquery@3.3.1/dist/jquery.slim.min.js'></script>
+    <script src='https://unpkg.com/bootstrap@4.1.3/dist/js/bootstrap.min.js'></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+</body>
+
 </html>
